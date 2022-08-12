@@ -11,6 +11,10 @@ brownie networks add Ethereum ganache-local host=http://127.0.0.1:8545 chainid=5
 To deploy to local ganache n/w
 ------------------------------
 brownie run scripts/deploy.py --network ganache-local
+brownie run scripts/donate_collect.py --network ganache-local
+
+#To run test scripts
+brownie test
 
 To deploy to local rinkeby
 ------------------------------
